@@ -1,0 +1,67 @@
+.header {
+    height: 5.5rem;
+    z-index: 1000;
+    /* width: 100%; */
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 100rem;
+    margin: 0;
+    position: fixed;
+    /* top: 3.5rem; */
+    /* border: 1px solid #000; */
+    margin: 0 auto;
+    --webkit-backdrop-filter: blur(5px);
+}
+.logo {
+    /* padding: 30px; */
+    padding-left: 50px;
+    margin: 0;
+}
+.logo_img {
+    width: 100px;
+}
+.headerSection2 {
+    width: 50%;
+}
+.nav {
+    padding-right: 60px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.navItems {
+    width: 32rem;
+}
+ul {
+    list-style: none;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    height: 50px;
+}
+li {
+    font-weight: 500;
+    cursor: pointer;
+}
+li:hover {
+    border-bottom: 2px solid #3302CD;
+    padding-bottom: 10px;
+    transition: 0.3s;
+}
+a {
+    text-decoration: none;
+}
+.primaryBTN {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 10px;
+    border: 1px solid #3302CD;
+    padding: 0 1.2rem;
+    height: 3.8rem;
+    cursor: pointer;
+}
+.primaryBtnText {
+    font-size: 1rem;
+}
