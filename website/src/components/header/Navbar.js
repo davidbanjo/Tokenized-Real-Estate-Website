@@ -1,5 +1,6 @@
 import React from 'react'
 import "./navbar.css"
+import PrimaryBTN from '../buttons/PrimaryBTN'
 
 const Navbar = () => {
   return (
@@ -32,9 +33,7 @@ const Navbar = () => {
                             </a>
                         </li>
                     </ul>
-                    <div className='primaryBTN'>
-                        <h3 className='primaryBtnText'>JOIN THE WAITLIST</h3>
-                    </div>
+                    <PrimaryBTN />
                 </div>
             </div>
     </div>

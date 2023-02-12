@@ -1,4 +1,57 @@
-.App {
-  text-align: center;
+.infinteScrollContainer {
+  width: 90%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  /* border: 1px solid #000; */
+  border-radius: 20px;
+  /* background: rgb(0, 0, 0); */
+    /* background: radial-gradient(circle, rgba(204,204,204,0) 66%, rgba(204,204,204,1) 96%, rgba(204,204,204,1) 100%);  */
+    /* width: 100%; */
+    background-color: #4158D0;
+    background-image: linear-gradient(43deg, #4158D0 0%, #C850C0 46%, #FFCC70 100%);    
+   color: white;
+   padding: 1rem;
+   /* overflow: scroll; */
+   flex-wrap: nowrap;
+   height: 3.5rem;
 }
+/* .animate {
+  width: 100%;
+  animation: marquee 20s linear infinite;
+}
+@keyframes marquee {
+	0% {
+		left: 0;
+	}
+	100% {
+		left: -50%;
+	}
+} */
+.case_1 {
+  width: 80%;
+  display: flex;
+  align-items: center;
+  flex-wrap: nowrap;
+  justify-content: space-evenly;
+}
+.scrollText {
+  padding: 0 15px;
+  font-size: 1.5rem;
+  font-weight: 900;
+  min-width: max-content;
+}
+.emoji {
+  width: 50px;
+}
+/* .hmmm {
+  display: grid;
+  place-items: center;
+  padding: 0 4px;
+} */
+a {
+    color: black;
+    text-decoration: none;
+}
+
 
