@@ -5,21 +5,21 @@ import "./workflow.css"
 const Workflow = () => {
   return (
     <div className='workflowContainer'>
-        <h3>When you make a property investment, you would earn daily returns on the appreciation of the property.</h3>
-        <div>
-            <div>
-                <img src='' alt='' />
-                <p>Create a Free account</p>
+        <h3 className='workflowText'>When you make a property investment, you would earn daily returns on the appreciation of the property.</h3>
+        <div className='workfLowStages'>
+            <div className='stagesBox'>
+                <img className='newAccountIcon' src='img/new-account.png' alt='' />
+                <p className='stagesBoxText'>Create a Free account</p>
             </div>
-            <BsFillArrowRightCircleFill />
-            <div>
-                <img src='' alt='' />
-                <p>Invest in a Property</p>
+            <BsFillArrowRightCircleFill className='arrowsFilled' />
+            <div className='stagesBox'>
+                <img className='newAccountIcon' src='img/investinaproperty.png' alt='' />
+                <p className='stagesBoxText'>Invest in a Property</p>
             </div>
-            <BsFillArrowRightCircleFill />
-            <div>
-                <img src='' alt='' />
-                <p>Start Earning</p>
+            <BsFillArrowRightCircleFill className='arrowsFilled' />
+            <div className='stagesBox'>
+                <img className='newAccountIcon' src='img/startearning.png' alt='' />
+                <p className='stagesBoxText'>Start Earning</p>
             </div>
         </div>
     </div>
