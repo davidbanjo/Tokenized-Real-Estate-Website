@@ -1,0 +1,22 @@
+.houseImg {
+    width: 55rem;
+    border-radius: 0 0 50% 50%;
+}
+.aboutDesc {
+    font-size: 1.6rem;
+    line-height: 2.6rem;
+    text-align: justify;
+}
+.cardsContainer {
+    display: flex;
+    gap: 5rem !important;
+}
+.circleVariant {
+    /* box-sizing: border-box; */
+    padding: 30px 30px !important;
+    height: 26rem !important;
+}
+.circleVariantDesc {
+    text-align: center;
+    font-size: 1.2rem;
+}
