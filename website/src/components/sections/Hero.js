@@ -7,7 +7,7 @@ const Hero = () => {
   return (
     <div className='hero'>
         <div className="hero_section_1">
-            <h1 className="hero_title">Own your very own property <br /><span className="colouredText">Real Estate</span><br /> Worldwide</h1>
+            <h1 className="hero_title">Own your very own property <br /><span className="colouredText"><b>Real Estate</b></span><br /> Worldwide</h1>
             <p className="heroSubTitle">The home of digital real estate in africa</p>
             <SecondaryBTN />
         </div>
@@ -17,6 +17,7 @@ const Hero = () => {
             autoplay={true}
             loop={true}
             controls={false}
+            speed={0.6}
             src="https://assets6.lottiefiles.com/packages/lf20_kuiykf08.json"
             style={{ height: '900px', width: '900px' }}
         ></Player>

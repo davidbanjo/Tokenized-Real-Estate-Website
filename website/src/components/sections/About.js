@@ -3,8 +3,8 @@ import "./about.css"
 
 const About = () => {
   return (
-    <div className='about'>
-        <div className='workfLowStages'>
+    <div className='about' id="about">
+        <div className='workfLowStages aboutContainer'>
             <div>
                 <img className='houseImg' src='img/house.png' alt='about_mixfits'/>
             </div>
@@ -14,16 +14,16 @@ const About = () => {
                 </p>
             </div>
         </div>
-        <div className='workfLowStages cardsContainer'>
+        <div className='workfLowStages cardsContainer beforeWorkflow'>
+        <div className='stagesBox circleVariant vision'>
+                <img className='newAccountIcon' src='img/vision.png' alt='vision'/>
+                <h3>VISION</h3>
+                <p className='circleVariantDesc'>By utilizing blockchain technology and tokenization, we aim to remove barriers and limitations associated with traditional real estate investments, such as high transaction costs and illiquidity.</p>
+            </div>
             <div className='stagesBox circleVariant'>
                 <img className='newAccountIcon' src='img/goal.png' alt='mission' />
                 <h3>MISSION</h3>
                 <p className='circleVariantDesc'>Our mission is to empower investors to participate in the real estate market with confidence, and to provide them with a seamless and secure investment experience</p>
-            </div>
-            <div className='stagesBox circleVariant'>
-                <img className='newAccountIcon' src='img/vision.png' alt='vision'/>
-                <h3>VISION</h3>
-                <p className='circleVariantDesc'>By utilizing blockchain technology and tokenization, we aim to remove barriers and limitations associated with traditional real estate investments, such as high transaction costs and illiquidity.</p>
             </div>
             <div className='stagesBox circleVariant'>
                 <img className='newAccountIcon' src='img/values.png' alt='values'/>

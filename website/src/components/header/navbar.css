@@ -8,13 +8,8 @@
     width: 100rem;
     margin: 0;
     position: fixed;
-    /* top: 3.5rem; */
-    /* border: 1px solid #000; */
     margin: 0 auto;
-    /* --webkit-backdrop-filter: blur(5px); */
-    /* -webkit-filter: blur(0px); */
     filter: blur(0px);
-    /* -webkit-backdrop-filter: blur(5px); */
     backdrop-filter: blur(5px);
 }
 .logo {
@@ -23,26 +18,29 @@
     margin: 0;
 }
 .logo_img {
-    width: 100px;
+    width: 130px;
 }
 .headerSection2 {
-    width: 50%;
+    width: 70%;
 }
 .nav {
     padding-right: 60px;
     display: flex;
     justify-content: space-between;
     align-items: center;
+    /* border: 1px solid black; */
 }
 .navItems {
     width: 32rem;
+    margin-bottom: 0;
 }
 ul {
     list-style: none;
     display: flex;
     justify-content: space-around;
     align-items: center;
-    height: 50px;
+    height: 3.0rem;
+    /* border: 1px solid black; */
 }
 li {
     font-weight: 500;
@@ -57,14 +55,15 @@ a {
     text-decoration: none;
 }
 .primaryBTN {
+    width: 12rem;
     display: flex;
     align-items: center;
     justify-content: center;
     border-radius: 20px;
     border: 1px solid #3302CD;
-    padding: 0 1.2rem;
-    height: 3.8rem;
+    height: 3.5rem;
     cursor: pointer;
+    padding-top: 11px;
 }
 .primaryBtnText {
     font-size: 1rem;
@@ -74,10 +73,69 @@ a {
     align-items: center;
     justify-content: center;
     border-radius: 20px;
-    /* border: 1px solid #3302CD; */
-    padding: 0 1.2rem;
-    height: 3.8rem;
+    height: 4.5rem;
     cursor: pointer;
     background-color: #3302CD;
     color: white;
+    padding-top: 11px;
+    width: 25rem
+}
+.mobileMenuIcon {
+    font-size: 40px;
+    color: black;
+    float: right;
+    margin-right: 60px;
+    display: none;
+}
+.mobileNav {
+    /* display: block; */
+    width: 80%;
+    height: 100vh;
+    background-color: white;
+    /* transition: 0.5s; */
+    position: absolute;
+    top: 0;
+    right: 0;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: flex-start;
+    /* box-sizing: border-box; */
+}
+.mobileNavItems {
+    display: flex;
+    flex-direction: column;
+    align-items: left;
+    justify-content: center;
+    gap: 100px;
+    /* border: 1px solid black; */
+    height: 80vh;
+    width: 100%;
+    text-align: left;
+    font-size: 30px;
+    padding-left: -30px;
+}
+.close {
+    /* width: 100% */
+    margin-left: 200px;
+    margin-top: 30px;
+}
+@media only screen and (max-width: 500px) {
+    .header{
+        width: 100%;
+    } 
+    .nav {
+        display: none;
+    }
+    .logo {
+        /* padding: 30px; */
+        padding-left: 0px;
+    }
+    .secondaryBTN {
+        width: 17rem
+    }
+    .mobileMenuIcon {
+        display: block;
+    }
+    
 }

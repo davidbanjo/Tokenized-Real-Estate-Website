@@ -5,7 +5,7 @@ import "./workflow.css"
 const Workflow = () => {
   return (
     <div className='workflowContainer'>
-        <h3 className='workflowText'>When you make a property investment, you would earn daily returns on the appreciation of the property.</h3>
+        <h2 className='workflowText'>When you purchase a property investment, you would earn<br /> daily returns on the appreciation of the property.</h2>
         <div className='workfLowStages'>
             <div className='stagesBox'>
                 <img className='newAccountIcon' src='img/new-account.png' alt='' />

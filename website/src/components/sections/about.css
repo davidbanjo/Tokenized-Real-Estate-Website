@@ -1,3 +1,6 @@
+.workfLowStages {
+    display: flex;
+}
 .houseImg {
     width: 55rem;
     border-radius: 0 0 50% 50%;
@@ -13,10 +16,40 @@
 }
 .circleVariant {
     /* box-sizing: border-box; */
-    padding: 30px 30px !important;
+    padding: 30px 30px;
     height: 26rem !important;
 }
 .circleVariantDesc {
     text-align: center;
     font-size: 1.2rem;
+}
+.aboutContainer {
+    padding-bottom: 10rem;
+}
+.cardsContainer {
+    padding-bottom: 10rem;
+}
+@media only screen and (max-width: 500px) {
+    .houseImg {
+        width: 100%;
+    }
+    .workfLowStages {
+        padding: 0 1rem;
+    }
+    .aboutDesc {
+        padding: 0 15px;
+        text-align: left;
+    }
+    .circleVariant {
+        /* margin: 0 20px; */
+        /* width: rem; */
+        /* box-sizing: content-box; */
+        padding: 20px 20px;
+    }
+    .vision {
+        height: 30rem !important;
+    }
+    .beforeWorkflow {
+        margin-bottom: 7rem;
+    }
 }

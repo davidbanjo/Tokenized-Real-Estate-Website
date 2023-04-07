@@ -7,11 +7,12 @@
     
 }
 .workfLowStages {
-    padding: 3rem 0;
     display: flex;
     align-items: center;
     justify-content: center;
     gap: 1.5rem;
+    /* flex-wrap: wrap; */
+    /* flex-wrap: wrap; */
 }
 .arrowsFilled {
     font-size: 2.5rem;
@@ -20,10 +21,12 @@
     font-size: 3.2rem;
     text-align: center;
     padding: 0 50px;
+    padding-bottom: 50px;
 }
 .stagesBox {
+    min-width: 20rem;
     width: 23rem;
-    height: 23rem;
+    height: 24rem;
     background: rgba(255, 255, 255, 0.31);
     border-radius: 16px;
     box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
@@ -34,10 +37,37 @@
     align-items: center;
     justify-content: center;
     flex-direction: column;
+    gap: 20px;
+    padding-bottom: 60px;
 }
 .newAccountIcon {
-    width: 150px;
+    width: 100px;
+    padding-top: 50px;
 }
 .stagesBoxText {
     font-size: 1.5rem;
+}
+@media only screen and (max-width: 500px) {
+    .newAccountIcon {
+        width: 100px;
+    }
+    .workflowContainer {
+        padding: 0 0;
+    }
+    .workflowText {
+        font-size: 2.2rem;
+        padding: 0 20px;
+        padding-top: 60px;
+        font-weight: 700;
+    }
+    .arrowsFilled {
+        display: none;
+    }
+    .workfLowStages {
+        flex-direction: column;
+    }
+    .stagesBox {
+        width: 20rem;
+        height: 20rem;
+    }
 }

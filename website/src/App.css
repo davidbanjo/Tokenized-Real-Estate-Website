@@ -1,21 +1,12 @@
 .infinteScrollContainer {
-  width: 90%;
+  width: 100%;
   display: flex;
   align-items: center;
-  justify-content: center;
-  /* border: 1px solid #000; */
-  border-radius: 20px;
-  /* background: rgb(0, 0, 0); */
-    /* background: radial-gradient(circle, rgba(204,204,204,0) 66%, rgba(204,204,204,1) 96%, rgba(204,204,204,1) 100%);  */
-    /* width: 100%; */
-    background-color: #4158D0;
-    background-image: linear-gradient(43deg, #4158D0 0%, #C850C0 46%, #FFCC70 100%);    
-   color: white;
-   padding: 1rem;
-   /* overflow: scroll; */
-   flex-wrap: nowrap;
-   height: 3.5rem;
-   box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
+  justify-content: space-around;
+  flex-wrap: wrap;
+}
+.swapCryptoText h2 {
+  font-size: 4.5rem;
 }
 /* .animate {
   width: 100%;
@@ -55,4 +46,17 @@ a {
     text-decoration: none;
 }
 
+@media only screen and (max-width: 500px) {
+  .infinteScrollContainer {
+    flex-direction: column-reverse;
+    overflow: hidden;
+  }
+  .swapCryptoText h2 {
+    font-size: 2rem;
+    text-align: center;
+  }
+  .swapCrypto img {
+    width: 350px;
+  }
+}
 
