@@ -8,10 +8,11 @@ import Faq from './components/sections/Faq';
 import Hero from './components/sections/Hero';
 import Team from './components/sections/Team';
 import Workflow from './components/sections/Workflow';
-
+import { Toaster } from 'react-hot-toast';
 function App() {
   return (
     <div className="App">
+      <Toaster />
       <Navbar />
       <Hero />
       <InfiniteScroll />

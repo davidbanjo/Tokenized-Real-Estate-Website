@@ -76,9 +76,12 @@ a {
     height: 4.5rem;
     cursor: pointer;
     background-color: #3302CD;
-    color: white;
+    color: white !important;
     padding-top: 11px;
     width: 25rem
+}
+.secondaryBtnText {
+    color: white;
 }
 .mobileMenuIcon {
     font-size: 40px;
